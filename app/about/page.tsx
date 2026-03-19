@@ -3,6 +3,15 @@ import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 
+export const metadata = {
+  title: "About Slatello | Natural Stone Systems",
+  description: "Learn about Slatello's mission to revive Africa's stone heritage through premium stone products.",
+  openGraph: {
+    title: "About Slatello",
+    description: "Slatello's story and natural stone product range.",
+  },
+}
+
 export default function AboutPage() {
   return (
     <main className="pt-20">
@@ -42,7 +51,7 @@ export default function AboutPage() {
             {/* Image */}
             <div className="md:flex-1 mt-10 md:mt-0">
               <img
-                src="https://slatello.com/images2014/panaroma-(1-of-1).jpg"
+                src="/images/panaroma-(1-of-1).jpg"
                 alt="Slatello Natural Stone Panorama"
                 className="rounded-sm w-full object-cover"
               />

@@ -25,10 +25,10 @@ export function Navigation() {
             <Image
               src="/slatello-logo.png"
               alt="Slatello Natural Stone"
-              width={220}
-              height={70}
+              width={260}
+              height={85}
               priority
-              className="h-10 w-auto"
+              className="h-12 w-auto"
             />
           </Link>
 
@@ -78,3 +78,4 @@ export function Navigation() {
     </header>
   )
 }
+

@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button"
 import { SpecCard } from "@/components/spec-card"
 
 const KAROO_IMAGES = [
-  "https://slatello.com/images2014/karoocladding1-(1-of-1).jpg",
-  "https://slatello.com/images2014/karoocladding2-(1-of-1).jpg",
-  "https://slatello.com/images2014/karoocladding3-(1-of-1).jpg",
+  "/images/karoocladding1-(1-of-1).jpg",
+  "/images/karoocladding2-(1-of-1).jpg",
+  "/images/karoocladding3-(1-of-1).jpg",
 ]
 
 const KAROO_SPECS = [
@@ -90,4 +90,5 @@ export default function KarooCladdingPage() {
     </main>
   )
 }
+
 

@@ -6,9 +6,9 @@ import { SpecCard } from "@/components/spec-card"
 
 export default function RivenCladdingPage() {
   const images = [
-    "https://slatello.com/images2014/riven1-(1-of-1).jpg",
-    "https://slatello.com/images2014/riven2-(1-of-1).jpg",
-    "https://slatello.com/images2014/riven3-(1-of-1).jpg",
+    "/images/riven1-(1-of-1).jpg",
+    "/images/riven2-(1-of-1).jpg",
+    "/images/riven3-(1-of-1).jpg",
   ]
 
   const specs = [
@@ -36,7 +36,7 @@ export default function RivenCladdingPage() {
             <div className="group relative overflow-hidden rounded-sm border border-border bg-card shadow-sm">
               <div className="aspect-[16/9] overflow-hidden">
                 <img
-                  src="https://slatello.com/images2014/rivenpanaroma-(1-of-1).jpg"
+                  src="/images/rivenpanaroma-(1-of-1).jpg"
                   alt="Riven cladding panorama"
                   loading="eager"
                   className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
@@ -101,4 +101,5 @@ export default function RivenCladdingPage() {
     </main>
   )
 }
+
 

@@ -4,14 +4,23 @@ import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { SpecCard } from "@/components/spec-card"
 
+export const metadata = {
+  title: "Paving | Slatello Natural Stone",
+  description: "Natural slate paving solutions and product specs from Slatello.",
+  openGraph: {
+    title: "Slatello Paving",
+    description: "Durable natural slate paving for driveways, patios, and walkways.",
+  },
+}
+
 const PAVING_IMAGES = [
-  "https://slatello.com/images2014/pavingpanaroma-(1-of-1).jpg",
-  "https://slatello.com/images2014/paving1-(1-of-1).jpg",
-  "https://slatello.com/images2014/paving2-(1-of-1).jpg",
-  "https://slatello.com/images2014/pavingslasto3-(1-of-1).jpg",
-  "https://slatello.com/images2014/pavingtile1-(1-of-1).jpg",
-  "https://slatello.com/images2014/pavingtile2-(1-of-1).jpg",
-  "https://slatello.com/images2014/pavingtile3-(1-of-1).jpg",
+  "/images/pavingpanaroma-(1-of-1).jpg",
+  "/images/paving1-(1-of-1).jpg",
+  "/images/paving2-(1-of-1).jpg",
+  "/images/pavingslasto3-(1-of-1).jpg",
+  "/images/pavingtile1-(1-of-1).jpg",
+  "/images/pavingtile2-(1-of-1).jpg",
+  "/images/pavingtile3-(1-of-1).jpg",
 ]
 
 const SLASTO_SPECS = [
@@ -76,7 +85,7 @@ export default function PavingPage() {
               <div className="group relative overflow-hidden rounded-sm border border-sand/15 bg-stone-medium/10 shadow-sm">
                 <div className="aspect-[16/9] overflow-hidden">
                   <img
-                    src="https://slatello.com/images2014/pavingpanaroma-(1-of-1).jpg"
+                    src="/images/pavingpanaroma-(1-of-1).jpg"
                     alt="Natural slate paving panorama"
                     loading="eager"
                     className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
@@ -200,4 +209,5 @@ export default function PavingPage() {
     </main>
   )
 }
+
 

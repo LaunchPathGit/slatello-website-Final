@@ -6,21 +6,21 @@ import { SpecCard } from "@/components/spec-card"
 
 const DRY_PACK_IMAGES = {
   madikwe: [
-    "https://slatello.com/images2014/madikwedrypack1-(1-of-1).jpg",
-    "https://slatello.com/images2014/madikwedrypack2-(1-of-1).jpg",
-    "https://slatello.com/images2014/madikwedrypack3-(1-of-1).jpg",
+    "/images/madikwedrypack1-(1-of-1).jpg",
+    "/images/madikwedrypack2-(1-of-1).jpg",
+    "/images/madikwedrypack3-(1-of-1).jpg",
   ],
   timbavati: [
-    "https://slatello.com/images2014/timbavatidrypack1-(1-of-1).jpg",
-    "https://slatello.com/images2014/timbavatidrypack2-(1-of-1).jpg",
-    "https://slatello.com/images2014/timbavatidrypack3-(1-of-1).jpg",
+    "/images/timbavatidrypack1-(1-of-1).jpg",
+    "/images/timbavatidrypack2-(1-of-1).jpg",
+    "/images/timbavatidrypack3-(1-of-1).jpg",
   ],
   sable: [
-    "https://slatello.com/images2014/sabledrypack1-(1-of-1).jpg",
-    "https://slatello.com/images2014/stripwallblack3-(1-of-1).jpg",
-    "https://slatello.com/images2014/sabledrypack2-(1-of-1).jpg",
+    "/images/sabledrypack1-(1-of-1).jpg",
+    "/images/stripwallblack3-(1-of-1).jpg",
+    "/images/sabledrypack2-(1-of-1).jpg",
   ],
-  custom: ["https://slatello.com/images2014/customdrypack1-(1-of-1).jpg"],
+  custom: ["/images/customdrypack1-(1-of-1).jpg"],
 }
 
 const DRY_PACK_SPECS = [
@@ -178,4 +178,5 @@ export default function DryPackCladdingPage() {
     </main>
   )
 }
+
 

@@ -21,21 +21,21 @@ export default function StripWallingPage() {
   ]
 
   const madikwe = [
-    "https://slatello.com/images2014/madikwestrip1-(1-of-1).jpg",
-    "https://slatello.com/images2014/madikwestrip2-(1-of-1).jpg",
-    "https://slatello.com/images2014/madikwestrip3-(1-of-1).jpg",
+    "/images/madikwestrip1-(1-of-1).jpg",
+    "/images/madikwestrip2-(1-of-1).jpg",
+    "/images/madikwestrip3-(1-of-1).jpg",
   ]
 
   const timbavati = [
-    "https://slatello.com/images2014/timbavatstripwall1-(1-of-1).jpg",
-    "https://slatello.com/images2014/timbavatstripwall2-(1-of-1).jpg",
-    "https://slatello.com/images2014/timbavatstripwall3-(1-of-1).jpg",
+    "/images/timbavatstripwall1-(1-of-1).jpg",
+    "/images/timbavatstripwall2-(1-of-1).jpg",
+    "/images/timbavatstripwall3-(1-of-1).jpg",
   ]
 
   const sable = [
-    "https://slatello.com/images2014/sablestripwall1-(1-of-1).jpg",
-    "https://slatello.com/images2014/sablestripwall2-(1-of-1).jpg",
-    "https://slatello.com/images2014/sablestripwall3-(1-of-1).jpg",
+    "/images/sablestripwall1-(1-of-1).jpg",
+    "/images/sablestripwall2-(1-of-1).jpg",
+    "/images/sablestripwall3-(1-of-1).jpg",
   ]
 
   return (
@@ -48,7 +48,7 @@ export default function StripWallingPage() {
             <div className="group relative overflow-hidden rounded-sm border border-border bg-card shadow-sm">
               <div className="aspect-[16/9] overflow-hidden">
                 <img
-                  src="https://slatello.com/images2014/stripwallpanaroma-(1-of-1).jpg"
+                  src="/images/stripwallpanaroma-(1-of-1).jpg"
                   alt="Strip walling panorama"
                   loading="eager"
                   className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
@@ -187,7 +187,7 @@ export default function StripWallingPage() {
               <div className="group relative overflow-hidden rounded-sm border border-border bg-card shadow-sm md:col-start-2">
                 <div className="aspect-[4/3] overflow-hidden">
                   <img
-                    src="https://slatello.com/images2014/custumstripwall1-(1-of-1).jpg"
+                    src="/images/custumstripwall1-(1-of-1).jpg"
                     alt="Custom strip wall cladding"
                     loading="lazy"
                     className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -212,4 +212,5 @@ export default function StripWallingPage() {
     </main>
   )
 }
+
 

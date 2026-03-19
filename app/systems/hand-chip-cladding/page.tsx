@@ -6,9 +6,9 @@ import { SpecCard } from "@/components/spec-card"
 
 export default function HandChipCladdingPage() {
   const images = [
-    "https://slatello.com/images2014/handchip1-(1-of-1).jpg",
-    "https://slatello.com/images2014/handchip2-(1-of-1).jpg",
-    "https://slatello.com/images2014/handchip3-(1-of-1).jpg",
+    "/images/handchip1-(1-of-1).jpg",
+    "/images/handchip2-(1-of-1).jpg",
+    "/images/handchip3-(1-of-1).jpg",
   ]
 
   const specs = [
@@ -36,7 +36,7 @@ export default function HandChipCladdingPage() {
             <div className="group relative overflow-hidden rounded-sm border border-border bg-card shadow-sm">
               <div className="aspect-[16/9] overflow-hidden">
                 <img
-                  src="https://slatello.com/images2014/handchippanaroma-(1-of-1).jpg"
+                  src="/images/handchippanaroma-(1-of-1).jpg"
                   alt="Hand chip cladding panorama"
                   loading="eager"
                   className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
@@ -101,4 +101,5 @@ export default function HandChipCladdingPage() {
     </main>
   )
 }
+
 

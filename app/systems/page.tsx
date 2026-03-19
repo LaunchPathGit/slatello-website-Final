@@ -3,6 +3,15 @@ import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 
+export const metadata = {
+  title: "Stone Systems | Slatello",
+  description: "Explore Slatello systems including cladding, walling, paving, and roofing.",
+  openGraph: {
+    title: "Slatello Stone Systems",
+    description: "Complete natural stone systems for architectural projects.",
+  },
+}
+
 export default function SystemsPage() {
   return (
     <main className="pt-20">
@@ -36,9 +45,9 @@ export default function SystemsPage() {
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {[
-              "https://slatello.com/images2014/cladding1-(1-of-1).jpg",
-              "https://slatello.com/images2014/cladding2-(1-of-1).jpg",
-              "https://slatello.com/images2014/cladding3-(1-of-1).jpg",
+              "/images/cladding1-(1-of-1).jpg",
+              "/images/cladding2-(1-of-1).jpg",
+              "/images/cladding3-(1-of-1).jpg",
             ].map((src) => (
               <div
                 key={src}
@@ -82,4 +91,5 @@ export default function SystemsPage() {
     </main>
   )
 }
+
 
