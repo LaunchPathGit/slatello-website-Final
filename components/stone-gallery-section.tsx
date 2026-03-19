@@ -36,7 +36,7 @@ const CATEGORIES: StoneGalleryCategory[] = [
     title: "Quartz",
     images: [
       { src: "/images/hero-stone-house.jpg", alt: "Quartz pattern" },
-      { src: "/images/slatello-logo.png", alt: "Quartz branding" },
+      { src: "/images/slatello-house.jpg", alt: "Quartz branding" },
       { src: "/images/slate-roofing.jpg", alt: "Quartz durability" },
       { src: "/images/timbavatidrypack1-(1-of-1).jpg", alt: "Quartz architecture" },
     ],
